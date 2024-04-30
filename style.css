@@ -1,7 +1,7 @@
 html {
   height: 100%;
   width: 100%;
-  background-color: lightgreen;
+  background-color: #ffffff;
 }
 #h1{
   text-align: center;
@@ -20,7 +20,7 @@ nav ul{
   padding: 0;
   display: flex;
   justify-content: space-between;
-  background-color: lightgreen;
+  background-color: #ffffff;
 }
 nav li{
   margin: 0 10px;
@@ -28,10 +28,10 @@ nav li{
   padding: 10px;
   text-decoration: none;
   front-weight: bold;
-  color: purple;
+  color: #000000;
   float: left;
 }
 nav li a:hover{
   color: #FFFFFF;
   background-color: #000000;
-}
+}8
