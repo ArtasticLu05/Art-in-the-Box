@@ -34,4 +34,8 @@ nav li{
 nav li a:hover{
   color: #FFFFFF;
   background-color: #000000;
-}8
+}
+p{
+  text-align: center;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
