@@ -1,7 +1,7 @@
 html {
   height: 100%;
   width: 100%;
-  background-color: #ffffff;
+  background-color: #ff9300;
 }
 #h1{
   text-align: center;
@@ -20,7 +20,7 @@ nav ul{
   padding: 0;
   display: flex;
   justify-content: space-between;
-  background-color: #ffffff;
+  background-color: #ff9300;
 }
 nav li{
   margin: 0 10px;
@@ -32,10 +32,45 @@ nav li{
   float: left;
 }
 nav li a:hover{
-  color: #FFFFFF;
-  background-color: #000000;
+  color: #000000;
+  background-color: #ffffff;
 }
 p{
   text-align: center;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}.carousel {
+  position: relative;
+  max-width: 800px; /* Set your desired width */
+  margin: auto;
+  overflow: hidden;
 }
+
+.carousel-inner {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: auto;
+}
+
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+
