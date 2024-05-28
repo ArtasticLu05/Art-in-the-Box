@@ -13,7 +13,6 @@ let cosplayPrice = 50; // Numeric variable
 // Mathematical Operation
 let discount = 10; // Numeric variable
 let totalPrice = cosplayPrice - discount; // Mathematical operation
-
 // Output to console
 console.log("Item:", cosplayItem);
 console.log("Price before discount:", cosplayPrice);
